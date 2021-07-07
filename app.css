@@ -1,0 +1,49 @@
+body {
+   margin: 0px; 
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    align-items: center;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.newtitle {
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: absolute;    
+}
+
+.divbutton {
+    text-align: center;
+    align-items: center;
+}
+
+.start {
+    text-align: center;
+    align-items: center;
+}

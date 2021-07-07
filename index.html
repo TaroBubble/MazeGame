@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"/>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+</head>
+<body>
+    <section class='hero is-danger is-bold'>
+        <div class="hero-body">
+            <h2 class="newtitle">Maze Game</h2>
+            <div class="start">
+                <input class="button is-success is-large is-focused" type="button" value="Start">
+            </div>
+        </div>
+    </section>
+    <div class="winner hidden" >
+        <h1>You Won!!!</h1>
+        <input type="button" value="Retry">
+        <input type="button" value="Next Level">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
